@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FreelanceHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f4f6fb;
+            color: #333;
+        }
+
+        /* Navbar */
+        nav {
+            background: linear-gradient(90deg, #ff512f, #dd2476);
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        nav h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(120deg, #ff512f, #dd2476);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 44px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .price-tag {
+            background: yellow;
+            color: black;
+            display: inline-block;
+            padding: 10px 20px;
+            font-weight: 700;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        .order-btn {
+            background: white;
+            color: #dd2476;
+            border: none;
+            padding: 14px 28px;
+            font-size: 18px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .order-btn:hover {
+            background: #f1f1f1;
+        }
+
+        /* Banner */
+        .banner {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .banner img {
+            width: 90%;
+            max-width: 750px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Services */
+        .services {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .service-box {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            width: 260px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            color: #dd2476;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>FreelanceHub</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>YouTube Thumbnail Design</h2>
+        <p>High-quality, eye-catching thumbnails for your videos</p>
+        <div class="price-tag">Only ₹99</div>
+        <br>
+        <a href="https://wa.me/918788420262?text=Hello,%20I%20want%20a%20YouTube%20thumbnail%20for%20₹99" target="_blank">
+            <button class="order-btn">Order Now</button>
+        </a>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h2>Sample Thumbnail</h2>
+        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113" alt="YouTube Thumbnail">
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <h2>Our Freelancing Services</h2>
+        <div class="service-box">
+            <div class="card">
+                <h3>Thumbnail Design</h3>
+                <p>Attractive YouTube thumbnails.</p>
+            </div>
+            <div class="card">
+                <h3>Logo Design</h3>
+                <p>Creative and professional logos.</p>
+            </div>
+            <div class="card">
+                <h3>Website Design</h3>
+                <p>Modern responsive websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 FreelanceHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
